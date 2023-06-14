@@ -1,0 +1,4 @@
+- 在建立 Vue 實體物件時, 會有一段`建立`, `掛載`, `更新`, `銷毀` 的過程, 就是生命週期
+- 主要分成`beforeCreate`, `created`, `beforeMount`, `mounted`, `beforeUpdate`, `updated`, `beforeUnMount`, `unMounted`
+- vue 完成變數雙向綁定是在`mounted`時
+- vue3把`beforeCreate`跟`created`放在`setup()`中了 (Composition API)

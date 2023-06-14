@@ -1,0 +1,8 @@
+- ### 我的回答:
+	- 一個HTML模型是由一個樹狀結構組成, 節點就是由一個個DOM節點去組成。可以使用`document.createElement`, `document.body.appendChild`去操控。
+	- 而`Virtual DOM`則是使用javascript的物件去模擬一個DOM節點，然後經由渲染的函式去生成真正的節點，掛載到網頁上去做更新。
+	- `Vue`本身是參考`Snabbdom`這個virtual DOM套件去實現。
+	- 使用virtual DOM 主要也是為了提升效能，避免直接操作DOM產生的效能問題。
+	-
+- ### 參考文章:
+	- [## 不只懂 Vue 語法：什麼是 Virtual DOM？Vue 如何利用 Virtual DOM？](https://ithelp.ithome.com.tw/m/articles/10265136)

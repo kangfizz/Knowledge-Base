@@ -1,0 +1,5 @@
+- 幫忙管理vue變數與狀態的的套件, 更改方式是使用`mutation`。
+- 主要是在多個`component`在使用同一個變數狀態時, 方便去做判斷與更改的動作(因為變數在多層的架構中不好傳遞)
+- 主要有5個attr: `state`, `getters`, `mutations`, `actions`, `modules`。。
+- 關於`actions`跟`mutations`的差別, 參考[[題目: Vuex中 actions 與 mutations 的差別]]
+-

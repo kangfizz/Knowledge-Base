@@ -1,0 +1,6 @@
+- `Ref`通常可接受任意型態的資料
+- `Reactive`只能接受物件型別的變數`Array`跟`Object`, 不需要使用`.value`取資料。
+- watch 的情況 ref 不會去監聽內部的值, 要即是使用`.value`或是`{ deep: true }`去坐監聽。
+- ### 參考:
+	- [# 【Vue 3】ref 跟 reactive 我該怎麼選!?](https://medium.com/i-am-mike/vue-3-ref-%E8%B7%9F-reactive-%E6%88%91%E8%A9%B2%E6%80%8E%E9%BA%BC%E9%81%B8-2fb6b6735a3c)
+-

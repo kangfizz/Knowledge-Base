@@ -1,0 +1,6 @@
+- `Composition API` 主要以`功能向`來分割程式碼, 而 `Options API`則是以`程式碼的性質種類`來分割
+- Composition API 的好處為, 可以將功能邏輯類似的放置在一起, 方便閱讀。
+- 另外Composition API 解決了原本使用options API 使用 mixins的問題(難追蹤 與 重複變數)
+-
+- ### 參考:
+	- [## 不只懂 Vue 語法：試說明 Composition API 與 Options API 概念和語法的分別？](https://ithelp.ithome.com.tw/articles/10279321)
